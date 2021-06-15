@@ -1,0 +1,37 @@
+sudo apt-get update
+sudo apt-get upgrade
+reboot 
+sudo xed /etc/default/grub
+sudo apt install gnome-tweaks
+sudo apt install xserver-xorg-input-synaptics
+reboot 
+ls
+cd Downloads/
+git clone https://github.com/pavlepiramida/elan_i2c_dkms.git
+sudo apt install git
+git clone https://github.com/pavlepiramida/elan_i2c_dkms.git
+cd elan_i2c_dkms/
+ls
+sudo dkms install
+ll
+cat dkms.conf 
+cat README
+sudo dkms install
+sudo apt-get install dkms
+sudo dkms install
+cat README 
+sudo dkms install .
+reboot 
+sudo rmmod psmouse
+su
+sudo -i
+code
+sudo apt-get install git-all
+su
+sudo apt update
+sudo apt install build-essential
+gcc --version
+ls
+cd Área\ de\ Trabalho/
+mkdir Git
+cd git
